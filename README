@@ -1,0 +1,5 @@
+ In order to compile you have to specify the following envirorment variables:
+   - CC: C-compiler to use. Use mpicc if you compile with FF_MPI_INIT (enabled by default).
+   - P4_INCLUDE_DIR: path to Portals 4 "include" directory
+   - P4_LIB_DIR: path to Portals 4 library directory
+   - P4_TEST_DIR: path to Portals 4 "test" directory
