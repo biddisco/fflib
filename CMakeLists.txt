@@ -62,3 +62,7 @@ include_directories(
 add_library(fflib SHARED ${FFLIB_SRCS})
 target_link_libraries(fflib ${PORTALS_LIBRARIES})
 
+#--------------------------------------------------
+# Tests
+#--------------------------------------------------
+add_subdirectory(tests)
