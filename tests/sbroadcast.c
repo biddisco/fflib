@@ -29,7 +29,7 @@ ff_schedule_h create_broadcast(ff_sched_info info){
 int main(int argc, char ** argv){
 
 
-    ff_init();
+    ff_init(&argc, &argv);
 
 
     int root = 0;
