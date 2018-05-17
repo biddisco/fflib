@@ -5,7 +5,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include <time.h>
-#include <mpi/mpi.h>
+#include <mpi.h>
 
 #include "ff.h"
 #include "ff_collectives.h"
